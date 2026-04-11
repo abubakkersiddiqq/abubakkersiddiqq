@@ -1,0 +1,195 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <style>
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+      @keyframes fadeIn1 { from { opacity: 0; } to { opacity: 1; } }
+      @keyframes fadeIn2 { from { opacity: 0; } to { opacity: 1; } }
+      @keyframes fadeIn3 { from { opacity: 0; } to { opacity: 1; } }
+      @keyframes fadeIn4 { from { opacity: 0; } to { opacity: 1; } }
+      @keyframes fadeIn5 { from { opacity: 0; } to { opacity: 1; } }
+      @keyframes fadeIn6 { from { opacity: 0; } to { opacity: 1; } }
+      @keyframes fadeIn7 { from { opacity: 0; } to { opacity: 1; } }
+      @keyframes fadeIn8 { from { opacity: 0; } to { opacity: 1; } }
+      @keyframes fadeIn9 { from { opacity: 0; } to { opacity: 1; } }
+      @keyframes fadeIn10 { from { opacity: 0; } to { opacity: 1; } }
+      @keyframes fadeIn11 { from { opacity: 0; } to { opacity: 1; } }
+      @keyframes fadeIn12 { from { opacity: 0; } to { opacity: 1; } }
+      @keyframes slideIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+
+      .line1  { animation: fadeIn1  0.4s ease forwards; animation-delay: 0.2s; opacity: 0; }
+      .line2  { animation: fadeIn2  0.4s ease forwards; animation-delay: 0.6s; opacity: 0; }
+      .line3  { animation: fadeIn3  0.4s ease forwards; animation-delay: 1.0s; opacity: 0; }
+      .line4  { animation: fadeIn4  0.4s ease forwards; animation-delay: 1.4s; opacity: 0; }
+      .line5  { animation: fadeIn5  0.4s ease forwards; animation-delay: 1.8s; opacity: 0; }
+      .line6  { animation: fadeIn6  0.4s ease forwards; animation-delay: 2.2s; opacity: 0; }
+      .line7  { animation: fadeIn7  0.4s ease forwards; animation-delay: 2.6s; opacity: 0; }
+      .line8  { animation: fadeIn8  0.4s ease forwards; animation-delay: 3.0s; opacity: 0; }
+      .line9  { animation: fadeIn9  0.4s ease forwards; animation-delay: 3.4s; opacity: 0; }
+      .line10 { animation: fadeIn10 0.4s ease forwards; animation-delay: 3.8s; opacity: 0; }
+      .line11 { animation: fadeIn11 0.4s ease forwards; animation-delay: 4.2s; opacity: 0; }
+      .line12 { animation: fadeIn12 0.4s ease forwards; animation-delay: 4.6s; opacity: 0; }
+      .cursor { animation: blink 1s step-end infinite; animation-delay: 5.0s; opacity: 0; }
+
+      .mono { font-family: 'Courier New', Courier, monospace; }
+      .prompt { fill: #58a6ff; }
+      .cmd    { fill: #f0f6fc; }
+      .comment { fill: #484f58; }
+      .green  { fill: #3fb950; }
+      .amber  { fill: #d29922; }
+      .blue   { fill: #58a6ff; }
+      .purple { fill: #bc8cff; }
+      .muted  { fill: #8b949e; }
+      .dim    { fill: #484f58; }
+      .white  { fill: #f0f6fc; }
+      .tag-bg { fill: #21262d; }
+      .tag-border { stroke: #30363d; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="500" rx="12" fill="#0d1117"/>
+
+  <!-- Title bar -->
+  <rect width="800" height="38" rx="12" fill="#161b22"/>
+  <rect y="26" width="800" height="12" fill="#161b22"/>
+  <rect y="36" width="800" height="2" fill="#21262d"/>
+
+  <!-- Traffic lights -->
+  <circle cx="20" cy="19" r="6" fill="#ff5f57"/>
+  <circle cx="40" cy="19" r="6" fill="#febc2e"/>
+  <circle cx="60" cy="19" r="6" fill="#28c840"/>
+
+  <!-- Tab label -->
+  <text x="400" y="23" text-anchor="middle" class="mono muted" font-size="12">abubakkersiddiqq — README.md</text>
+
+  <!-- Line 1: whoami command -->
+  <g class="line1">
+    <text x="24" y="72" class="mono prompt" font-size="13">❯ </text>
+    <text x="42" y="72" class="mono cmd" font-size="13">whoami</text>
+  </g>
+
+  <!-- Line 2: name output -->
+  <g class="line2">
+    <text x="24" y="92" class="mono green" font-size="13" font-weight="bold">Abubakker Siddiq</text>
+    <text x="168" y="92" class="mono muted" font-size="13">  //  Python Backend Engineer  |  AI Integration</text>
+  </g>
+
+  <!-- Line 3: location + status -->
+  <g class="line3">
+    <text x="24" y="110" class="mono muted" font-size="12">Bengaluru, IN</text>
+    <text x="130" y="110" class="mono dim" font-size="12">  ·  </text>
+    <circle cx="160" cy="106" r="4" fill="#3fb950"/>
+    <text x="170" y="110" class="mono green" font-size="12">open to opportunities</text>
+  </g>
+
+  <!-- Divider -->
+  <g class="line4">
+    <line x1="24" y1="124" x2="776" y2="124" stroke="#21262d" stroke-width="1"/>
+  </g>
+
+  <!-- Line 5: ls command -->
+  <g class="line5">
+    <text x="24" y="144" class="mono prompt" font-size="13">❯ </text>
+    <text x="42" y="144" class="mono cmd" font-size="13">ls -la ~/projects/</text>
+  </g>
+
+  <!-- Projects -->
+  <g class="line6">
+    <text x="24" y="164" class="mono dim" font-size="12">drwxr-xr-x</text>
+    <text x="110" y="164" class="mono blue" font-size="12">bino</text>
+    <text x="155" y="164" class="mono dim" font-size="12">/</text>
+    <text x="390" y="164" class="mono dim" font-size="12">Go · OpenRouter · LLM routing</text>
+    <rect x="680" y="154" width="48" height="16" rx="8" class="tag-bg"/>
+    <rect x="680" y="154" width="48" height="16" rx="8" class="tag-border" stroke-width="0.5"/>
+    <text x="704" y="165" text-anchor="middle" class="mono green" font-size="10">▲ live</text>
+  </g>
+
+  <g class="line7">
+    <text x="24" y="184" class="mono dim" font-size="12">drwxr-xr-x</text>
+    <text x="110" y="184" class="mono blue" font-size="12">blogflow-api</text>
+    <text x="207" y="184" class="mono dim" font-size="12">/</text>
+    <text x="390" y="184" class="mono dim" font-size="12">FastAPI · PostgreSQL · JWT · Docker</text>
+    <rect x="680" y="174" width="48" height="16" rx="8" class="tag-bg"/>
+    <rect x="680" y="174" width="48" height="16" rx="8" class="tag-border" stroke-width="0.5"/>
+    <text x="704" y="185" text-anchor="middle" class="mono green" font-size="10">▲ live</text>
+  </g>
+
+  <g class="line8">
+    <text x="24" y="204" class="mono dim" font-size="12">drwxr-xr-x</text>
+    <text x="110" y="204" class="mono blue" font-size="12">deep-reader</text>
+    <text x="200" y="204" class="mono dim" font-size="12">/</text>
+    <text x="390" y="204" class="mono dim" font-size="12">FastAPI · RAG · pgvector · Docker</text>
+    <rect x="680" y="194" width="48" height="16" rx="8" class="tag-bg"/>
+    <rect x="680" y="194" width="48" height="16" rx="8" class="tag-border" stroke-width="0.5"/>
+    <text x="704" y="205" text-anchor="middle" class="mono green" font-size="10">▲ live</text>
+  </g>
+
+  <!-- Divider 2 -->
+  <g class="line9">
+    <line x1="24" y1="220" x2="776" y2="220" stroke="#21262d" stroke-width="1"/>
+  </g>
+
+  <!-- Stack command -->
+  <g class="line9">
+    <text x="24" y="240" class="mono prompt" font-size="13">❯ </text>
+    <text x="42" y="240" class="mono cmd" font-size="13">stack --list</text>
+  </g>
+
+  <g class="line10">
+    <text x="24" y="260" class="mono muted" font-size="12">lang  </text>
+    <text x="80" y="260" class="mono white" font-size="12">Python · Go</text>
+  </g>
+  <g class="line10">
+    <text x="24" y="278" class="mono muted" font-size="12">api   </text>
+    <text x="80" y="278" class="mono white" font-size="12">FastAPI · SQLAlchemy async · Pydantic v2</text>
+  </g>
+  <g class="line10">
+    <text x="24" y="296" class="mono muted" font-size="12">AI    </text>
+    <text x="80" y="296" class="mono white" font-size="12">RAG · pgvector · embeddings · OpenRouter</text>
+  </g>
+  <g class="line10">
+    <text x="24" y="314" class="mono muted" font-size="12">infra </text>
+    <text x="80" y="314" class="mono white" font-size="12">Docker · Render · Supabase · JWT</text>
+  </g>
+
+  <!-- Divider 3 -->
+  <g class="line11">
+    <line x1="24" y1="330" x2="776" y2="330" stroke="#21262d" stroke-width="1"/>
+  </g>
+
+  <!-- Activity log -->
+  <g class="line11">
+    <text x="24" y="350" class="mono prompt" font-size="13">❯ </text>
+    <text x="42" y="350" class="mono cmd" font-size="13">tail -f activity.log</text>
+  </g>
+
+  <g class="line12">
+    <text x="24" y="370" class="mono dim" font-size="12">[2026-01]</text>
+    <text x="100" y="370" class="mono muted" font-size="12">Deployed bino → Render</text>
+  </g>
+  <g class="line12">
+    <text x="24" y="388" class="mono dim" font-size="12">[2026-02]</text>
+    <text x="100" y="388" class="mono muted" font-size="12">Deployed BlogFlow API — fixed Supabase + asyncpg in prod</text>
+  </g>
+  <g class="line12">
+    <text x="24" y="406" class="mono dim" font-size="12">[2026-03]</text>
+    <text x="100" y="406" class="mono muted" font-size="12">Completed backend internship @ Zephyr Technologies</text>
+  </g>
+  <g class="line12">
+    <text x="24" y="424" class="mono dim" font-size="12">[2026-04]</text>
+    <text x="100" y="424" class="mono muted" font-size="12">Shipped DeepReader — RAG service, pgvector + Docker + Render</text>
+  </g>
+
+  <!-- Final prompt + cursor -->
+  <g class="line12">
+    <line x1="24" y1="440" x2="776" y2="440" stroke="#21262d" stroke-width="1"/>
+    <text x="24" y="460" class="mono comment" font-size="12"># python backend  |  ai integration  |  open to hire</text>
+  </g>
+  <g class="line12">
+    <text x="24" y="480" class="mono prompt" font-size="13">❯ </text>
+    <rect x="42" y="468" width="9" height="14" fill="#58a6ff" class="cursor"/>
+  </g>
+</svg>
