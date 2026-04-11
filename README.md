@@ -1,3 +1,6 @@
+<div align="center">
+  <img src="terminal.svg" alt="Abubakker Siddiq" width="800"/>
+</div>
 
 <div align="center">
 
