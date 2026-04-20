@@ -8,9 +8,9 @@
 
 | project | stack | |
 |---|---|---|
-| [bino](https://github.com/abubakkersiddiqq/bino_smart_query_helper) | Go · OpenRouter · REST | [↗ live](https://bino-smart-query-helper.onrender.com) |
-| [blogflow-api](https://github.com/abubakkersiddiqq/real-blog) | FastAPI · PostgreSQL · Docker · Supabase · JWT | [↗ live](https://real-blog.onrender.com) |
-| [deep-reader](https://github.com/abubakkersiddiqq/deep-reader) | FastAPI · RAG · pgvector · Docker | [↗ live](https://deepreader.onrender.com) |
+| [bino](https://github.com/abubakkersiddiqq/bino_smart_query_helper) | Go · OpenRouter · REST | [↗ live](https://binosmartqueryhelper-production.up.railway.app/) |
+| [blogflow-api](https://github.com/abubakkersiddiqq/real-blog) | FastAPI · PostgreSQL · Docker · Supabase · JWT | [↗ live](https://blog-flow-production.up.railway.app/) |
+| [deep-reader](https://github.com/abubakkersiddiqq/deep-reader) | FastAPI · RAG · pgvector · Docker | [↗ live](https://abubakker66-deepreader.hf.space/) |
 
 </div>
 
